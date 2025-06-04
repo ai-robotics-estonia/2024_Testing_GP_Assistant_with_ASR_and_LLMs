@@ -67,7 +67,7 @@ The final prompt was selected based on the combination of BERTScore, fact checki
 
 \[1] Olev, A., & Alumäe, T. (2022). Estonian speech recognition and transcription editing service. *Baltic Journal of Modern Computing,* 10(3). [https://doi.org/10.22364/bjmc.2022.10.3.14](https://doi.org/10.22364/bjmc.2022.10.3.14)
 
-\[2] OpenAI. (2025). [https://arxiv.org/abs/2410.21276](https://arxiv.org/abs/2410.21276)
+\[2] Hurst, Aaron, et al. “Gpt-4o system card.” *arXiv* (2024). [https://arxiv.org/abs/2410.21276](https://arxiv.org/abs/2410.21276)
 
 \[3] Hunskår, S. & Kalda, R. (Eds.). *Peremeditsiin.* Eesti oludele kohandatud norrakeelsest õpikust *Allmennmedisin.* Tartu: University of Tartu Press, 2020. 1004 lk. ISBN 978-9949-03-436-9.
 
@@ -146,7 +146,7 @@ These findings show that while physicians still favor human-written documentatio
 
 During the project, we also gathered sufficient feedback to identify concrete ways to refine the AI prompt to better align with physicians' expectations and writing style. Furthermore, we anticipate that as clinicians adapt to voice-based workflows, they may begin to speak in ways that naturally include key information — ensuring that these elements are captured in the audio and subsequently reflected in the AI-generated summaries. This mutual adaptation between technology and clinical practice is likely to improve documentation quality in future iterations.
 
-![Physicians’ Preferences for Clinical Summaries: AI-Generated vs Doctor-Written](images/preference50.png)
+![Physicians’ Preferences for Clinical Summaries: AI-Generated vs Doctor-Written](images/preference.png)
 
 **Figure 1** Physicians’ Preferences for Clinical Summaries: AI-Generated vs Doctor-Written
 
@@ -204,7 +204,7 @@ A basic web application was developed that allows users to upload an audio file,
 
 The prototype can be accessed from [https://perearstiai.github.io/](https://perearstiai.github.io/). OpenAI API key is necessary to make use of the transcription and summarization functionality. Please note that the application sends data to OpenAI for processing and therefore does not satisfy the data privacy requirements for actual use, it can be only used for demonstrations.
 
-![Prototype application user interface](images/ui50.png)
+![Prototype application user interface](images/ui.png)
 
 **Figure 3** Prototype application user interface.
 
